@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+
+.banner{
+    background-image: url(./img/pasta2.jpg);
+    background-color: black;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    
+}
+
+
+
+
+nav {
+    padding: 20px;
+    
+}
+
+.menusuperior {
+    
+    list-style: none;
+    text-align: center;
+
+}
+
+.menusuperior li{
+    display: inline-block;
+    ;
+}
+
+.menusuperior a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: blue;
+    color: rgb(219, 224, 214);
+    padding: 1.2rem;
+    font-size: 18px;
+    margin: 1px;
+    border-radius: 1rem;
+}
+
+.titulo {
+   color: rgb(0, 0, 0);
+   font-size: 4rem;
+   display: flex;
+   justify-content: center;
+padding: 3rem;
+margin: 1rem;
+text-transform:uppercase;
+
+}
+
+.contenedorflex {
+    display: flex;
+}
+
+#contenido{
+    background-color: hsl(66, 84%, 43%);
+    padding: 3rem;
+    width: 70%;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    text-align: justify ;
+    
+}
+/* imagenes de contenido */
+.pasta {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.pasta img{
+    width: 20rem;
+    padding: 2rem;
+}
+
+.bordesredondeados{
+display: flex;
+border-radius: 5rem;
+
+}
+
+aside{
+    background-color: chocolate;
+    width:40%
+
+    ;
+}
+
+
+/*-----------------footer*/
+
+
+footer{
+  color: rgb(red, green, blue);
+    background-color: rgb(61, 65, 65);
+    padding: 2px;
+}  
+  
+.bloquefooter {
+    display: flex;
+    justify-content: space-around;
+
+}    
+
+
+.menufooter {
+    list-style: none;
+    text-align: justify;
+
+}
+
+
+.menufooter a{
+
+    text-decoration: none;
+    color: #e4e4e4;
+    font-size: 1rem;
+    line-height: 1rem;
+
+}
+
+
+
+.creditofinal {
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: cornsilk;
+}
+
+
+

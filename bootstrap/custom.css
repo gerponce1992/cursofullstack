@@ -1,0 +1,45 @@
+.bg-danger {
+    --bs-bg-opacity: 1;
+    background-color: #56ca13!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #15a009;
+    border-color: #15a009;
+}
+
+
+
+.contenedorflex {
+    display: flex;
+}
+
+#contenido{
+    background-color: hsl(66, 84%, 43%);
+    padding: 3rem;
+    width: 70%;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    text-align: justify ;
+    
+}
+aside{
+    background-color: chocolate;
+    width:40%
+
+    ;
+}.pasta img{
+    width: 20rem;
+    padding: 2rem;
+}
+
+.bordesredondeados{
+display: flex;
+border-radius: 5rem;
+
+}.pasta {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+}
